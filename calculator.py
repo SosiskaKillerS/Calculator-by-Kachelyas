@@ -17,7 +17,7 @@ win.title('Calculator')
 
 calc = tk.Entry(win, justify=tk.RIGHT, font = ('Arial', 15), width = 15)
 calc.grid(row=0,column=0,columnspan=3, stick='we')
-
+  
 make_digit_button('1').grid(row=1,column=0, stick='wens', pady=5, padx=5)
 make_digit_button('2').grid(row=1,column=1, stick='wens', pady=5, padx=5)
 make_digit_button('3').grid(row=1,column=2, stick='wens', pady=5, padx=5)
