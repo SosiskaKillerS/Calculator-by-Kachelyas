@@ -12,7 +12,7 @@ def make_digit_button(digit):
 
 win = tk.Tk()
 win.geometry(f"240x260+100+200")
-win['bg'] = '#33ffe6'
+win['bg'] = '#AC7580'
 win.title('Calculator')
 
 calc = tk.Entry(win, justify=tk.RIGHT, font = ('Arial', 15), width = 15)
